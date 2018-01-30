@@ -48,7 +48,7 @@ class FigureOpsSpec extends FlatSpec {
     val ell = Ellipse(60, 52, (34.5, 12.4))
     val frac = MyFraction(2, 8)
 
-    assertResult(Ellipse(15, 13, (34.5, 12.4)))(FigureOps.resize(frac, ell))
+    assertResult(Ellipse(15, 13, (34.5, 12.4)))(FigureOps.resizeEllipse(frac, ell))
   }
 
   it should "not change the origin point" in {
@@ -64,7 +64,7 @@ class FigureOpsSpec extends FlatSpec {
     val circ = Circle(60, (34.5, 12.4))
     val frac = MyFraction(2, 8)
 
-    assertResult(Circle(15, (34.5, 12.4)))(FigureOps.resize(frac, circ))
+    assertResult(Circle(15, (34.5, 12.4)))(FigureOps.resizeCircle(frac, circ))
   }
 
   it should "not change the origin point" in {

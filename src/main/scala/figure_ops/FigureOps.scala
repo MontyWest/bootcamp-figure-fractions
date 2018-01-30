@@ -11,8 +11,7 @@ object FigureOps {
       height = (myFraction * MyFraction(rec.height)).toDouble,
       origin = rec.origin,
       strokeColor = rec.strokeColor,
-      fillColor = rec.fillColor,
-      filled = rec.filled
+      fillColor = rec.fillColor
     )
   }
 
@@ -21,8 +20,7 @@ object FigureOps {
       length = (myFraction * MyFraction(sq.length)).toDouble,
       origin = sq.origin,
       strokeColor = sq.strokeColor,
-      fillColor = sq.fillColor,
-      filled = sq.filled
+      fillColor = sq.fillColor
     )
   }
 
@@ -32,8 +30,7 @@ object FigureOps {
       vRadius = (myFraction * MyFraction(ell.vRadius)).toDouble,
       origin = ell.origin,
       strokeColor = ell.strokeColor,
-      fillColor = ell.fillColor,
-      filled = ell.filled
+      fillColor = ell.fillColor
     )
   }
 
@@ -42,8 +39,7 @@ object FigureOps {
       radius = (myFraction * MyFraction(circ.radius)).toDouble,
       origin = circ.origin,
       strokeColor = circ.strokeColor,
-      fillColor = circ.fillColor,
-      filled = circ.filled
+      fillColor = circ.fillColor
     )
   }
 
